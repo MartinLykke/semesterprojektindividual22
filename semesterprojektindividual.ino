@@ -21,6 +21,7 @@ void setup()
 }
 void loop()
 {
+       int val;
       int val;
       val=analogRead(0);   //connect grayscale sensor to Analog 0
        Serial.print("Light: ");
